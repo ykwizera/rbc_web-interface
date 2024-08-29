@@ -1,0 +1,212 @@
+/* ----------------------------------------------Overview--------------------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #76c043;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1 {
+    color: black;
+    margin-left: 20px;
+}
+
+.nav-buttons button {
+    background-color: #f4f4f4;
+    border: 2px solid #76c043;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #76c043;
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #a6a6a6;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.info-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.info-box {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.info-box h2 {
+    margin-bottom: 10px;
+    color: #76c043;
+}
+
+.info-box a {
+    display: block;
+    margin-top: 10px;
+    color: #76c043;
+    text-decoration: none;
+}
+
+.info-box.blue-box {
+    background-color: #4677cb;
+    border-color: #4677cb;
+    color: white;
+}
+
+
+/* -------------------------------------Inventory Level Section --------------------------------------------------------------------------------*/
+.inventory-level {
+    padding: 20px;
+}
+
+.inventory-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inventory-filter input {
+    margin-right: 10px;
+}
+/* ----------------------------------------------------------------------Malaria Treatment Section---------------------------------------------------------------------------- */
+.malaria-inventory-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.inventory-item {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------Family Planning Section------------------------------------------------------------------------- */
+.family-planning-inventory-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.family-inventory-item {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+/* -------------------------------------------------------------------Parasitic Infection Section------------------------------------------------------------------------- */
+.parasitic-infection-inventory-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.parasitic-inventory-item {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------------Tuberculosis Section-------------------------------------------------------------------------------------------- */
+.tuberculosis-inventory-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.tuberculosis-inventory-item {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+/* ------------------------------------------------------------------- Diarrhea Section----------------------------------------------------------------------------------------- */
+.diarrhea-inventory-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.diarrhea-inventory-item {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+/* ---------------------------------------------------------------------Nutrition Section------------------------------------------------------------------------------- */
+.nutrition-inventory-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.nutrition-inventory-item {
+    background-color: white;
+    border: 2px solid #76c043;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}

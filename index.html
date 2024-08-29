@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHW Supplier Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Admin Name</h1>
+            <div class="nav-buttons">
+                <button id="homeBtn">Home</button>
+                <button id="aboutBtn">About</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#overview" id="overviewBtn">Overview</a></li>
+                <li><a href="#inventory">Inventory level</a></li>
+                <li><a href="#chw-stock">CHW stock level</a></li>
+                <li><a href="#prediction">Prediction</a></li>
+                <li><a href="#request">Request</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!------------------------------------------------------ Overview Section -------------------------------------------------------------------------->
+            <div class="info-boxes" id="overviewSection">
+                <div class="info-box">
+                    <h2>0</h2>
+                    <p>Total CHW in my region</p>
+                    <a href="#">More info</a>
+                </div>
+                <div class="info-box">
+                    <h2>0</h2>
+                    <p>Total Commodities type</p>
+                    <a href="#">More info</a>
+                </div>
+                <div class="info-box">
+                    <h2>0</h2>
+                    <p>Recent Orders</p>
+                    <a href="#">More info</a>
+                </div>
+                <div class="info-box blue-box"></div>
+                <div class="info-box blue-box"></div>
+                <div class="info-box blue-box"></div>
+            </div>
+<!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------Inventory Level Section----------------------------------------------------------------------------------------------------------------- -->
+            <div class="inventory-level" id="inventoryLevelSection" style="display: none;">
+                <div class="inventory-filter">
+                    <input type="checkbox"> Malaria treatment
+                    <input type="checkbox"> Parasitic infection
+                    <input type="checkbox"> Diarrhoea
+                    <input type="checkbox"> Family Planning
+                    <input type="checkbox"> Tuberculosis
+                    <input type="checkbox"> Nutrition supplements
+                    <input type="checkbox"> Pneumonia
+                    <input type="checkbox"> Equipment
+                </div>
+<!-- ---------------------------------------------- Malaria treatment items ------------------------------------------------------------------------- -->
+                <div class="malaria-inventory-items">
+                    <div class="inventory-item">
+                        <h2>0</h2>
+                        <p>Rapid Diagnostic Test</p>
+                    </div>
+                    <div class="inventory-item">
+                        <h2>0</h2>
+                        <p>Arthemeter 20mg Lumefantrine 120mg Tab (6x1)</p>
+                    </div>
+                    <div class="inventory-item">
+                        <h2>0</h2>
+                        <p>Arthemeter 20mg Lumefantrine 120mg Tab (6x2)</p>
+                    </div>
+                    <div class="inventory-item">
+                        <h2>0</h2>
+                        <p>Arthemeter 20mg Lumefantrine 120mg Tab (6x3)</p>
+                    </div>
+                    <div class="inventory-item">
+                        <h2>0</h2>
+                        <p>Arthemeter 20mg Lumefantrine 120mg Tab (6x4)</p>
+                    </div>
+                    <div class="inventory-item">
+                        <h2>0</h2>
+                        <p>Bed Net</p>
+                    </div>
+                </div>
+<!-- ---------------------------------------------- Family Planning items ------------------------------------------------------------------------- -->
+                <div class="family-planning-inventory-items">
+                    <div class="family-inventory-item">
+                        <h2>0</h2>
+                        <p>Medroxy progesterone Acetate Tab</p>
+                    </div>
+                    <div class="family-inventory-item">
+                        <h2>0</h2>
+                        <p>Levonorgestrel Tab</p>
+                    </div>
+                    <div class="family-inventory-item">
+                        <h2>0</h2>
+                        <p>Ethinylestradiol Levonorgestrel Tab</p>
+                    </div>
+                    <div class="family-inventory-item">
+                        <h2>0</h2>
+                        <p>Male Condom</p>
+                    </div>
+                    <div class="family-inventory-item">
+                        <h2>0</h2>
+                        <p>Cycle Beads</p>
+                    </div>
+                    <div class="family-inventory-item">
+                        <h2>0</h2>
+                        <p>Urine Pregnancy Test</p>
+                    </div>
+                </div>
+<!-- ---------------------------------------------- Parasitic infection items ------------------------------------------------------------------------- -->
+                <div class="parasitic-infection-inventory-items">
+                    <div class="parasitic-inventory-item">
+                        <h2>0</h2>
+                        <p>Praziquantel Tab</p>
+                    </div>
+                    <div class="parasitic-inventory-item">
+                        <h2>0</h2>
+                        <p>Mebendazole Tab</p>
+                    </div>
+                    <div class="parasitic-inventory-item">
+                        <h2>0</h2>
+                        <p>Ivermectin 3mg Tab</p>
+                    </div>
+                    <div class="parasitic-inventory-item">
+                        <h2>0</h2>
+                        <p>Misoprostol Tab</p>
+                    </div>
+                </div>
+<!-- ---------------------------------------------- Tuberculosis (TB) Treatment ------------------------------------------------------------------------- -->
+                <div class="tuberculosis-inventory-items">
+                    <div class="tuberculosis-inventory-item">
+                        <h2>0</h2>
+                        <p>RHZE Tab</p>
+                    </div>
+                    <div class="tuberculosis-inventory-item">
+                        <h2>0</h2>
+                        <p>Rifampin Isoniazid Tab</p>
+                    </div>
+                </div>
+<!-- ---------------------------------------------- Diarrhea Treatment ------------------------------------------------------------------------- -->
+                <div class="diarrhea-inventory-items">
+                    <div class="diarrhea-inventory-item">
+                        <h2>0</h2>
+                        <p>Zinc Sulfate 20mg Tab</p>
+                    </div>
+                    <div class="diarrhea-inventory-item">
+                        <h2>0</h2>
+                        <p>Oral Rehydration Salts Powder</p>
+                    </div>
+                </div>
+<!-- ---------------------------------------------- Nutritional Supplements ------------------------------------------------------------------------- -->
+                <div class="nutrition-inventory-items">
+                    <div class="nutrition-inventory-item">
+                        <h2>0</h2>
+                        <p>Micronutrient Powder</p>
+                    </div>
+                    <div class="nutrition-inventory-item">
+                        <h2>0</h2>
+                        <p>Vitamin A Supp</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
